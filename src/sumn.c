@@ -15,6 +15,6 @@ int sumn (int n)
 
     /* Recursive step: */
     else {
-        return 2 * n + 1 + sumn(n - 1);
+        return 2 * n - 1 + sumn(n - 1);
     }
 }
